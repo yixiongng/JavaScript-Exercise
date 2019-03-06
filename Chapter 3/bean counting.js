@@ -1,30 +1,22 @@
-//bean counting
-count_b=0;
-function countBs(check_b)
-{
-    let string_length = check_b.length;
-    for(let i=0;i<string_length;i++)
-    {
-        if(check_b[i]=='b' ||check_b[i]=='B')
-        count_b++;
+countB = 0;
+function countBs(checkB) {
+    let stringLength = checkB.length;
+    for(let i = 0; i < stringLength; i++) {
+        if(checkB[i] == 'b' || checkB[i] == 'B')
+        countB++;
     }
-
-    return count_b;
+    return countB;
 }
 
-//Bean Counting
-char_count = 0;
-function countChar(check_string,char_check)
-{
-    let string_length = check_string.length;
-    for(let i=0;i<string_length;i++)
-    {
-        if(check_string[i]==char_check)
-        char_count++;
+charCount = 0;
+function countChar(checkString, charCheck) {
+    let stringLength = checkString.length;
+    for(let i = 0; i < stringLength; i++) {
+        if(checkString[i] == charCheck) {
+          charCount++;
+        }
     }
-
-    return char_count;
+    return charCount;
 }
-
 console.log(countBs("BBC"));
 console.log(countChar("kakkerlak", "k"));
