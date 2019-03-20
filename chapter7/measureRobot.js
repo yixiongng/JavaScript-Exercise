@@ -23,7 +23,6 @@ function buildGraph(edges) {
   }
   return graph;
 }
-
 const roadGraph = buildGraph(roads);
 
 class VillageState {

@@ -1,4 +1,4 @@
-class PGroup {
+﻿class PGroup {
   constructor(num) {
     this.obj = num;
   }
