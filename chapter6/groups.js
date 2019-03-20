@@ -1,4 +1,4 @@
-class Group {
+﻿class Group {
   constructor() {
     this.obj = [];
   }
@@ -22,7 +22,6 @@ class Group {
     return newList;
   }
 }
-
 let group = Group.from([10, 20]);
 console.log(group.has(10));
 // → true
