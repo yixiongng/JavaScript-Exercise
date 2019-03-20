@@ -1,4 +1,4 @@
-function loop(start, cond, reduce, action) {
+﻿function loop(start, cond, reduce, action) {
   let current = start;
   for(current; cond(current); current = reduce(current)) {
         action(current);

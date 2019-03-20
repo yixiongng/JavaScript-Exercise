@@ -1,4 +1,4 @@
-function characterScript(code) {
+﻿function characterScript(code) {
   for (let script of SCRIPTS) {
     if (script.ranges.some(([from, to]) => {
       return code >= from && code < to;
@@ -22,7 +22,6 @@ function countBy(items, groupName) {
   }
   return counts;
 }
-
 function dominantDirection(text) {
   // Your code here.
 }

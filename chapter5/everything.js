@@ -1,4 +1,4 @@
-function every(array, test) {
+﻿function every(array, test) {
   let arrayLength = array.length;
  
   for(let i = 0; i < arrayLength; i++) {
