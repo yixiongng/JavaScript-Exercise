@@ -1,4 +1,4 @@
-const box = {
+﻿const box = {
   locked: true,
   unlock() { this.locked = false; },
   lock() { this.locked = true;  },
@@ -8,7 +8,6 @@ const box = {
     return this._content;
   }
 };
-
 function withBoxUnlocked(body) {
   // Your code here.
   boxStatus = body.locked;
